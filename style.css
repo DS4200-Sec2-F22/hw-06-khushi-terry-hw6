@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+}
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    flex: 33.33%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .setosa {
+    fill: #003f5c;
+    opacity: 50%;
+  }
+
+  .versicolor {
+    fill:#bc5090;
+    opacity: 50%;
+  }
+
+  .virginica {
+    fill: #ffa600;
+    opacity: 50%;
+  }
