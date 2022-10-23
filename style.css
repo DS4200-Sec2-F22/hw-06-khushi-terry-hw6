@@ -8,8 +8,9 @@ h1 {
 .columns {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     width: 100%;
+    padding-right: 20px;
   }
   
   .column {
@@ -34,3 +35,5 @@ h1 {
     fill: #ffa600;
     opacity: 50%;
   }
+
+ 
