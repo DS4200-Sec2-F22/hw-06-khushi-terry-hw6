@@ -32,8 +32,13 @@ h1 {
   }
 
   .virginica {
-    fill: #ffa600;
+    fill: #ffd500;
     opacity: 50%;
   }
 
+  .brush {
+    stroke: orange;
+    stroke-width: 1;
+    opacity: 100% !important;
+  }
  
